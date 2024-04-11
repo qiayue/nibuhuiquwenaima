@@ -5,7 +5,7 @@ import { ChatMessages } from './chat-messages'
 
 export function Chat() {
   return (
-    <div className="px-8 md:px-12 pt-10 md:pt-12 pb-14 md:pb-24 max-w-3xl mx-auto flex flex-col space-y-3 md:space-y-4">
+    <div className="px-8 md:px-12 pt-24 md:pt-24 pb-14 md:pb-24 max-w-3xl mx-auto flex flex-col space-y-3 md:space-y-4">
       <div id="site-logo2"></div>
       <ChatMessages />
       <ChatPanel />
