@@ -41,7 +41,7 @@ export function FollowupPanel() {
       <Input
         type="text"
         name="input"
-        placeholder="Ask a follow-up question..."
+        placeholder="还有问题吗？在这里写下你的问题来追问"
         value={input}
         className="pr-14 h-12"
         onChange={e => setInput(e.target.value)}
