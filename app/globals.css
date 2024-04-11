@@ -87,4 +87,9 @@
 }
 #site-logo2{
   top: -10px;
+  left: 0;
+  margin-left: 0;
+}
+#message-box{
+  padding-top: 100px;
 }
