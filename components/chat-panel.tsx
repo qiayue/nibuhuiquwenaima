@@ -8,6 +8,9 @@ import { Button } from './ui/button'
 import { ArrowRight, Plus, Square } from 'lucide-react'
 import { EmptyScreen } from './empty-screen'
 
+import Image from 'next/image';
+import logoSrc from '/logo.svg';
+
 export function ChatPanel() {
   const [input, setInput] = useState('')
   const [messages, setMessages] = useUIState<typeof AI>()
@@ -91,6 +94,9 @@ export function ChatPanel() {
     <div className={formPositionClass}>
       {/* <IconKuroko className="w-6 h-6 mb-4" /> */}
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
+        <div className="relative flex items-center w-full">
+          <Image src={logoSrc} alt="Logo" width={24} height={24} />
+        </div>
         <div className="relative flex items-center w-full">
           <Input
             ref={inputRef}
