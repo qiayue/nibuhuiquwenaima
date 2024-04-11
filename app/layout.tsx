@@ -12,9 +12,9 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = '你不回去问AI吗？'
+const title = '你不会去问AI吗？'
 const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+  '你不会去问AI吗？遇到问题，不要问人，先问AI。'
 
 export const metadata: Metadata = {
   title,
