@@ -92,6 +92,9 @@ export function ChatPanel() {
       {/* <IconKuroko className="w-6 h-6 mb-4" /> */}
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
         <div className="relative flex items-center w-full">
+          <a href="/"><img src="/logo.svg" style="witdh:50%;"></a>
+        </div>
+        <div className="relative flex items-center w-full">
           <Input
             ref={inputRef}
             type="text"
