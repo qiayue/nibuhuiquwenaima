@@ -7,7 +7,7 @@ export function ChatMessages() {
   return (
     <>
       {messages.map((message: { id: number; component: React.ReactNode }) => (
-        <div key={message.id} id="message-box"><div id="site-logo2"></div>{message.component}</div>
+        <div key={message.id} class="message-box message-box-{message.id} "><div class="site-logo2"></div>{message.component}</div>
       ))}
     </>
   )

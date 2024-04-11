@@ -75,7 +75,7 @@
   }
 }
 
-#site-logo,#site-logo2{
+#site-logo,.site-logo2{
   width: 276px;
   height: 60px;
   background-image: url(/logo.svg);
@@ -85,12 +85,16 @@
   margin-left: -138px;
   top: -80px;
 }
-#site-logo2{
+.site-logo2{
   top: -10px;
   left: 0;
   margin-left: 0;
+  display: none;
 }
-#message-box{
+.messages-box > .message-box:first-child{
   padding-top: 100px;
   position: relative;
+}
+.messages-box > .message:first-child .site-logo2 {
+    display: block;
 }
