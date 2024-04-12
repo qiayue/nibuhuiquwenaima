@@ -6,8 +6,8 @@ export function ChatMessages() {
 
   return (
     <>
-      <div className="relative flex items-center w-full">
-          <div id="site-logo"></div>
+      <div id="answer-banber">
+          <div id="answer-logo"></div>
       </div>
       {messages.map((message: { id: number; component: React.ReactNode }) => (
         <div key={message.id}>{message.component}</div>
