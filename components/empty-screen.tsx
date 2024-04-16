@@ -2,7 +2,18 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
-  
+  {
+    heading: 'Google的Gemini模型怎么使用？',
+    message: 'Google的Gemini模型怎么使用？'
+  },
+  {
+    heading: 'OpenAI最新发布的GPT模型是哪个？',
+    message: 'OpenAI最新发布的GPT模型是哪个？'
+  },
+  {
+    heading: '即刻哥飞是谁？',
+    message: '即刻哥飞是谁？'
+  }
 ]
 export function EmptyScreen({
   submitMessage,
